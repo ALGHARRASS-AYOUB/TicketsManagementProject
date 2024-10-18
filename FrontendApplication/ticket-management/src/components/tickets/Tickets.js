@@ -20,7 +20,6 @@ function Tickets() {
 
   const handlePageChange = (e,newPage) => {
     e.preventDefault()
-    console.log("neww lpa ", newPage)
     setPageNumber(newPage)
     if (newPage >= 1 && newPage <= totalPages) {
       fetchData()
@@ -30,16 +29,12 @@ function Tickets() {
   const fetchData = async () => {
     const res=await fetchTickets( pageNumber,pageSize);
     setFiltredData(res?.tickets)
-    console.log("configgg  ",res)
     setTotalPages(res?.totalPages)
     
 
-    // setTotalPages(response.config[0])
   };
   
-  // fetchData()
   const updateTable =async (v = null, searchKey = null) => {
-    // console.log("in update tables")
     setFilter(v)
     if (v != null && searchKey == null) {
       
@@ -66,8 +61,6 @@ function Tickets() {
     
 
       }
-      // setFiltredData(tickets)
-      // console.log("filtering : ",filtredData)
       
     }
       if(searchKey != null && v == null){
@@ -76,19 +69,14 @@ function Tickets() {
         return item.description.toLowerCase().search(searchKey.toLowerCase()) != -1;
       });
       setFiltredData(data);
-        // console.log("search: ",filtredData)
     }
   };
 
   useEffect(() => {
     fetchData()
 
-    // setFiltredData(tickets)
   }, [pageNumber,totalPages]);
 
-  // console.log("res  ",tickets)
-  // console.log("in effect items: ",items)
-  // console.log("in effect: filtreddata",filtredData)
   return (
     
     <Container>

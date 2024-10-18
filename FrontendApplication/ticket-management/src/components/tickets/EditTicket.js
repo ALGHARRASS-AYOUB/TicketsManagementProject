@@ -19,18 +19,14 @@ const { state } = useLocation();
 
 const handleSubmit=(e)=>{
   const updatedTicket={ticketId,description, status,date}
-  console.log("updated ticket: ",updatedTicket)
   setItem(updatedTicket)
-  console.log("updated ticket item: ",item)
   e.preventDefault()
   update();
 
 }
 
  const fetchTicket=async()=>{
-  console.log("id value: ",state.ticketId)
  const res=await ticketById(state.ticketId);
-  console.log("fetchin ticket  for update ticket res",res.data)
   setticketId(state.ticketId)
   setItem(res?.data)
   setDate(res?.data.date)
@@ -39,9 +35,7 @@ const handleSubmit=(e)=>{
 }
 
 const update=async()=>{
-console.log("update item:" , item)
 const res=await updateTicket(ticketId,{ticketId,description, status,date})
-console.log("res update:" , res)
 
  if(res.status==204)
   toast.success('the ticket has been updated')

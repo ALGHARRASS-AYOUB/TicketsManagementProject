@@ -17,9 +17,7 @@ import moment from 'moment'
 
 const handleSubmit=(e)=>{
   const createdTicket={description, status,date}
-  console.log("createdTicket ticket: ",createdTicket)
   setItem(createdTicket)
-  console.log("created ticket item: ",item)
   e.preventDefault()
    store();
 }
@@ -27,9 +25,7 @@ const handleSubmit=(e)=>{
 
 
 const store=async()=>{
-  console.log("create item:" , item)
   const res=await addTicket({description, status,date})
-  console.log("res addTicket:" , res)
   
    if(res.status==201)
     toast.success('the ticket has been created')

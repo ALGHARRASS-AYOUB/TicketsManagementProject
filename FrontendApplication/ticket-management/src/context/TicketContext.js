@@ -30,8 +30,6 @@ export const TicketProvider = ({ children }) => {
       headers:{
            'content-type':'application/json'
       }
-      // 'pageCount': page,
-      // 'totalPages': size
     };
 
     setLoading(true);
@@ -41,8 +39,6 @@ export const TicketProvider = ({ children }) => {
       const response = await axios.get(`${getUrl('Tickets')}?pageNumber=${page}&pageSize=${size}`,config);
       setTickets(response.data.tickets);
       setPageInfo({"pageNumber":response.data.pageNumber,"totalPages":response.data.totalPages})
-      console.log("in context fetch tickets ",tickets)
-      console.log("in context fetch tickets all information ",response)
       return response.data
     } catch (err) {
       toast.error('an error has been occured while fetching data')
@@ -60,7 +56,6 @@ export const TicketProvider = ({ children }) => {
       }
     };
 
-    console.log("status in context url: ",status)
     setLoading(true);
     try {
       let URL=''
@@ -70,7 +65,6 @@ export const TicketProvider = ({ children }) => {
         const response = await axios.get(URL,config);
         setOpenTickets(response.data.tickets);
         setPageInfo({"pageNumber":response.data.pageNumber,"totalPages":response.data.totalPages})
-        console.log("in context fetch open ticket ",openTickets)
         return response.data
       }
       if(status==1){
@@ -78,7 +72,6 @@ export const TicketProvider = ({ children }) => {
         const response = await axios.get(URL,config);
         setClosedTickets(response.data.tickets);
         setPageInfo({"pageNumber":response.data.pageNumber,"totalPages":response.data.totalPages})
-        console.log("in context fetch open ticket ",openTickets)
         return response.data
 
       }
@@ -101,7 +94,6 @@ export const TicketProvider = ({ children }) => {
     try {
       const response=await axios.get(`${getUrl('Tickets')}/${id}`,config);
       setTicket(response.data)
-      console.log("getbyid ",response.data)
       return response;
     } catch (err) {
       toast.error('an error has been occured while fetching data')  
@@ -136,7 +128,6 @@ export const TicketProvider = ({ children }) => {
 
     try {
       const response=await axios.put(`${getUrl('Tickets')}/${ticketId}`, ticket,config);
-       console.log('update context',response)
        fetchTickets();
        return response;
     } catch (err) {
