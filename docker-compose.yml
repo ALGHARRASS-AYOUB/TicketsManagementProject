@@ -1,0 +1,51 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:14
+    container_name: postgres_db
+    environment:
+      - POSTGRES_USER=hahn
+      - POSTGRES_PASSWORD=hahn
+      - POSTGRES_DB=ticketsdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - app-network
+
+  backend:
+    build:
+      context: .
+      dockerfile: ./BackendApplication/TicketsManagement/TicketsManagement/Dockerfile
+    container_name: backend_service
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Host=db;Port=5432;Database=ticketsdb;Username=hahn;Password=hahn
+    depends_on:
+      - db
+    ports:
+      - "5059:8080"
+    networks:
+      - app-network
+    command: >
+      bash -c "dotnet ef database update --project TicketsManagement && dotnet TicketsManagement.dll"
+
+  frontend:
+    build:
+      context: ./FrontendApplication
+      dockerfile: Dockerfile
+    container_name: frontend_service
+    environment:
+      - REACT_APP_API_URL=http://localhost:8080/
+    ports:
+      - "3000:3000"
+    networks:
+      - app-network
+
+volumes:
+  pgdata:
+
+networks:
+  app-network:
+    driver: bridge

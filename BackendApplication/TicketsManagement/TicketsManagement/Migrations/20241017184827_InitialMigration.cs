@@ -34,18 +34,18 @@ namespace TicketsManagement.Migrations
                 columns: new[] { "TicketId", "Date", "Description", "Status" },
                 values: new object[,]
                 {
-                    { 1, new DateTime(2024, 10, 10, 23, 54, 45, 81, DateTimeKind.Utc).AddTicks(6288), "desc 1 ", 0 },
-                    { 2, new DateTime(2024, 10, 12, 23, 54, 45, 81, DateTimeKind.Utc).AddTicks(6297), "desc 2", 1 },
-                    { 3, new DateTime(2024, 10, 13, 23, 54, 45, 81, DateTimeKind.Utc).AddTicks(6300), "desc 3", 0 },
-                    { 4, new DateTime(2024, 10, 14, 23, 54, 45, 81, DateTimeKind.Utc).AddTicks(6302), "desc 4", 0 },
-                    { 5, new DateTime(2024, 10, 6, 23, 54, 45, 81, DateTimeKind.Utc).AddTicks(6303), "desc 5 ", 0 },
-                    { 6, new DateTime(2024, 10, 12, 23, 54, 45, 81, DateTimeKind.Utc).AddTicks(6305), "desc 6", 1 },
-                    { 7, new DateTime(2024, 10, 13, 23, 54, 45, 81, DateTimeKind.Utc).AddTicks(6307), "desc 7", 0 },
-                    { 8, new DateTime(2024, 10, 14, 23, 54, 45, 81, DateTimeKind.Utc).AddTicks(6309), "desc 8", 0 },
-                    { 9, new DateTime(2024, 10, 10, 23, 54, 45, 81, DateTimeKind.Utc).AddTicks(6311), "desc 9 ", 0 },
-                    { 10, new DateTime(2024, 10, 12, 23, 54, 45, 81, DateTimeKind.Utc).AddTicks(6312), "desc 10", 1 },
-                    { 11, new DateTime(2024, 10, 13, 23, 54, 45, 81, DateTimeKind.Utc).AddTicks(6314), "desc 11", 0 },
-                    { 12, new DateTime(2024, 10, 14, 23, 54, 45, 81, DateTimeKind.Utc).AddTicks(6316), "desc 12", 0 }
+                    { 1, new DateTime(2024, 10, 12, 18, 48, 26, 979, DateTimeKind.Utc).AddTicks(6044), "desc 1 ", 0 },
+                    { 2, new DateTime(2024, 10, 14, 18, 48, 26, 979, DateTimeKind.Utc).AddTicks(6052), "desc 2", 1 },
+                    { 3, new DateTime(2024, 10, 15, 18, 48, 26, 979, DateTimeKind.Utc).AddTicks(6054), "desc 3", 0 },
+                    { 4, new DateTime(2024, 10, 16, 18, 48, 26, 979, DateTimeKind.Utc).AddTicks(6055), "desc 4", 0 },
+                    { 5, new DateTime(2024, 10, 8, 18, 48, 26, 979, DateTimeKind.Utc).AddTicks(6057), "desc 5 ", 0 },
+                    { 6, new DateTime(2024, 10, 14, 18, 48, 26, 979, DateTimeKind.Utc).AddTicks(6059), "desc 6", 1 },
+                    { 7, new DateTime(2024, 10, 15, 18, 48, 26, 979, DateTimeKind.Utc).AddTicks(6060), "desc 7", 0 },
+                    { 8, new DateTime(2024, 10, 16, 18, 48, 26, 979, DateTimeKind.Utc).AddTicks(6062), "desc 8", 0 },
+                    { 9, new DateTime(2024, 10, 12, 18, 48, 26, 979, DateTimeKind.Utc).AddTicks(6063), "desc 9 ", 0 },
+                    { 10, new DateTime(2024, 10, 14, 18, 48, 26, 979, DateTimeKind.Utc).AddTicks(6065), "desc 10", 1 },
+                    { 11, new DateTime(2024, 10, 15, 18, 48, 26, 979, DateTimeKind.Utc).AddTicks(6066), "desc 11", 0 },
+                    { 12, new DateTime(2024, 10, 16, 18, 48, 26, 979, DateTimeKind.Utc).AddTicks(6068), "desc 12", 0 }
                 });
         }
 

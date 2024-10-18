@@ -16,9 +16,22 @@ namespace TicketsManagement.Services
 
         public async Task<PaginatedList<Ticket>> getTickets(int pageNumber, int pageSize)
         {
-            var query = _context.Tickets.AsQueryable();
+            var query = _context.Tickets.AsQueryable().OrderBy(t=>t.TicketId);
             return await PaginatedList<Ticket>.paginate(query, pageNumber, pageSize);
         }
+
+        public async Task<PaginatedList<Ticket>> getOpenTickets(int pageNumber, int pageSize)
+        {
+            var query = _context.Tickets.AsQueryable().Where(t=>t.Status==TicketStatus.Open).OrderBy(t => t.TicketId);
+            return await PaginatedList<Ticket>.paginate(query, pageNumber, pageSize);
+        }
+
+        public async Task<PaginatedList<Ticket>> getClosedTickets(int pageNumber, int pageSize)
+        {
+            var query = _context.Tickets.AsQueryable().Where(t => t.Status == TicketStatus.Closed).OrderBy(t => t.TicketId);
+            return await PaginatedList<Ticket>.paginate(query, pageNumber, pageSize);
+        }
+
         public async Task<Ticket> getTicketById(int id)
         {
             var ticket = await _context.Tickets.FindAsync(id);

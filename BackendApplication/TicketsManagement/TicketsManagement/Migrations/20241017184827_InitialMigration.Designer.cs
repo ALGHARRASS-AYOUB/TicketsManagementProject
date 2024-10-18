@@ -12,7 +12,7 @@ using TicketsManagement.Data;
 namespace TicketsManagement.Migrations
 {
     [DbContext(typeof(ApiDbContext))]
-    [Migration("20241015235445_InitialMigration")]
+    [Migration("20241017184827_InitialMigration")]
     partial class InitialMigration
     {
         /// <inheritdoc />
@@ -51,84 +51,84 @@ namespace TicketsManagement.Migrations
                         new
                         {
                             TicketId = 1,
-                            Date = new DateTime(2024, 10, 10, 23, 54, 45, 81, DateTimeKind.Utc).AddTicks(6288),
+                            Date = new DateTime(2024, 10, 12, 18, 48, 26, 979, DateTimeKind.Utc).AddTicks(6044),
                             Description = "desc 1 ",
                             Status = 0
                         },
                         new
                         {
                             TicketId = 2,
-                            Date = new DateTime(2024, 10, 12, 23, 54, 45, 81, DateTimeKind.Utc).AddTicks(6297),
+                            Date = new DateTime(2024, 10, 14, 18, 48, 26, 979, DateTimeKind.Utc).AddTicks(6052),
                             Description = "desc 2",
                             Status = 1
                         },
                         new
                         {
                             TicketId = 3,
-                            Date = new DateTime(2024, 10, 13, 23, 54, 45, 81, DateTimeKind.Utc).AddTicks(6300),
+                            Date = new DateTime(2024, 10, 15, 18, 48, 26, 979, DateTimeKind.Utc).AddTicks(6054),
                             Description = "desc 3",
                             Status = 0
                         },
                         new
                         {
                             TicketId = 4,
-                            Date = new DateTime(2024, 10, 14, 23, 54, 45, 81, DateTimeKind.Utc).AddTicks(6302),
+                            Date = new DateTime(2024, 10, 16, 18, 48, 26, 979, DateTimeKind.Utc).AddTicks(6055),
                             Description = "desc 4",
                             Status = 0
                         },
                         new
                         {
                             TicketId = 5,
-                            Date = new DateTime(2024, 10, 6, 23, 54, 45, 81, DateTimeKind.Utc).AddTicks(6303),
+                            Date = new DateTime(2024, 10, 8, 18, 48, 26, 979, DateTimeKind.Utc).AddTicks(6057),
                             Description = "desc 5 ",
                             Status = 0
                         },
                         new
                         {
                             TicketId = 6,
-                            Date = new DateTime(2024, 10, 12, 23, 54, 45, 81, DateTimeKind.Utc).AddTicks(6305),
+                            Date = new DateTime(2024, 10, 14, 18, 48, 26, 979, DateTimeKind.Utc).AddTicks(6059),
                             Description = "desc 6",
                             Status = 1
                         },
                         new
                         {
                             TicketId = 7,
-                            Date = new DateTime(2024, 10, 13, 23, 54, 45, 81, DateTimeKind.Utc).AddTicks(6307),
+                            Date = new DateTime(2024, 10, 15, 18, 48, 26, 979, DateTimeKind.Utc).AddTicks(6060),
                             Description = "desc 7",
                             Status = 0
                         },
                         new
                         {
                             TicketId = 8,
-                            Date = new DateTime(2024, 10, 14, 23, 54, 45, 81, DateTimeKind.Utc).AddTicks(6309),
+                            Date = new DateTime(2024, 10, 16, 18, 48, 26, 979, DateTimeKind.Utc).AddTicks(6062),
                             Description = "desc 8",
                             Status = 0
                         },
                         new
                         {
                             TicketId = 9,
-                            Date = new DateTime(2024, 10, 10, 23, 54, 45, 81, DateTimeKind.Utc).AddTicks(6311),
+                            Date = new DateTime(2024, 10, 12, 18, 48, 26, 979, DateTimeKind.Utc).AddTicks(6063),
                             Description = "desc 9 ",
                             Status = 0
                         },
                         new
                         {
                             TicketId = 10,
-                            Date = new DateTime(2024, 10, 12, 23, 54, 45, 81, DateTimeKind.Utc).AddTicks(6312),
+                            Date = new DateTime(2024, 10, 14, 18, 48, 26, 979, DateTimeKind.Utc).AddTicks(6065),
                             Description = "desc 10",
                             Status = 1
                         },
                         new
                         {
                             TicketId = 11,
-                            Date = new DateTime(2024, 10, 13, 23, 54, 45, 81, DateTimeKind.Utc).AddTicks(6314),
+                            Date = new DateTime(2024, 10, 15, 18, 48, 26, 979, DateTimeKind.Utc).AddTicks(6066),
                             Description = "desc 11",
                             Status = 0
                         },
                         new
                         {
                             TicketId = 12,
-                            Date = new DateTime(2024, 10, 14, 23, 54, 45, 81, DateTimeKind.Utc).AddTicks(6316),
+                            Date = new DateTime(2024, 10, 16, 18, 48, 26, 979, DateTimeKind.Utc).AddTicks(6068),
                             Description = "desc 12",
                             Status = 0
                         });

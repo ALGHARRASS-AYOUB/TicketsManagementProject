@@ -22,6 +22,7 @@ namespace TicketsManagement.Models
         public TicketStatus Status { get; set; } 
 
         [Required]
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd HH:mm:ss}", ApplyFormatInEditMode = true)]
         public DateTime Date { get; set; } = DateTime.UtcNow; 
     }
 }

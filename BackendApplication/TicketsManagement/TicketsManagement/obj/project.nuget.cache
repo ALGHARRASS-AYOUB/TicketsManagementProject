@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W18Al/xxUE0=",
+  "dgSpecHash": "G9BaGbI9rfo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\hpi52\\source\\repos\\TicketsManagement\\TicketsManagement\\TicketsManagement.csproj",
+  "projectFilePath": "C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement\\TicketsManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hpi52\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\hpi52\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
