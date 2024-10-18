@@ -16,8 +16,8 @@ services:
 
   backend:
     build:
-      context: .
-      dockerfile: ./BackendApplication/TicketsManagement/TicketsManagement/Dockerfile
+      context: ./BackendApplication/TicketsManagement/TicketsManagement
+      dockerfile: Dockerfile
     container_name: backend_service
     environment:
       - ASPNETCORE_ENVIRONMENT=Development

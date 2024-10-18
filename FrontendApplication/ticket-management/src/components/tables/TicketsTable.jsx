@@ -10,7 +10,6 @@ const TicketsTable = ({alltickets,setAllTickets}) => {
   const { tickets,fetchTickets, deleteTicket, updateTicket,ticket,loading } = useTicket('')
   const [ticketsToMap,setTicketsToMap]=useState();
 
-  console.log("ticketsss in table:",alltickets)
   const fetch=async()=>{
     const listTickets = await fetchTickets();
     setAllTickets(alltickets)
