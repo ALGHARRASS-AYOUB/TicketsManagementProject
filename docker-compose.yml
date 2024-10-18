@@ -16,7 +16,7 @@ services:
 
   backend:
     build:
-      context: ./BackendApplication/TicketsManagement/TicketsManagement
+      context: ./BackendApplication/TicketsManagement
       dockerfile: Dockerfile
     container_name: backend_service
     environment:
@@ -33,7 +33,7 @@ services:
 
   frontend:
     build:
-      context: ./FrontendApplication
+      context: ./FrontendApplication/ticket-management
       dockerfile: Dockerfile
     container_name: frontend_service
     environment:

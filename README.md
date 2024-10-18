@@ -18,6 +18,7 @@ The application allows users to create, view, update, and delete tickets. It als
 - **Pagination**: Efficiently paginate through large ticket lists.
 - **Client-side Validation**: Ensures that the required fields are filled when creating or updating tickets.
 - **Real-time Notifications**: Feedback on successful or failed CRUD operations using React-toastify.
+- **Filtering and Searching**: Filter list by open or closed tickets. Search tickets by description as well.
 
 ## Prerequisites
 
@@ -34,7 +35,7 @@ Follow these steps to run the application using Docker:
     `git clone https://github.com/ALGHARRASS-AYOUB/TicketsManagementProject.git
     
 2. Use Docker to run the backend (PostgreSQL, .NET API) and the frontend (React) services. In the root directory where `docker-compose.yml` is located, execute the following command:
-    `docker-compose up --build -d`
+    `docker compose -f docker-compose.yml up --build -d`
 
     This command will build and run the required services:
     
