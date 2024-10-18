@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2F031C31-F2F9-4B03-BACC-C7D468B8F9FD}|TicketsManagement\\TicketsManagement.csproj|c:\\users\\hpi52\\source\\repos\\ticketmanagementproject\\backendapplication\\ticketsmanagement\\ticketsmanagement\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{2F031C31-F2F9-4B03-BACC-C7D468B8F9FD}|TicketsManagement\\TicketsManagement.csproj|solutionrelative:ticketsmanagement\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{D7A7456B-4E0D-4F9A-9048-7861BC3D3014}|TicketsManagement.Tests\\TicketsManagement.Tests.csproj|c:\\users\\hpi52\\source\\repos\\ticketmanagementproject\\backendapplication\\ticketsmanagement\\ticketsmanagement.tests\\ticketcontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7A7456B-4E0D-4F9A-9048-7861BC3D3014}|TicketsManagement.Tests\\TicketsManagement.Tests.csproj|solutionrelative:ticketsmanagement.tests\\ticketcontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F031C31-F2F9-4B03-BACC-C7D468B8F9FD}|TicketsManagement\\TicketsManagement.csproj|c:\\users\\hpi52\\source\\repos\\ticketmanagementproject\\backendapplication\\ticketsmanagement\\ticketsmanagement\\data\\apidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F031C31-F2F9-4B03-BACC-C7D468B8F9FD}|TicketsManagement\\TicketsManagement.csproj|solutionrelative:ticketsmanagement\\data\\apidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F031C31-F2F9-4B03-BACC-C7D468B8F9FD}|TicketsManagement\\TicketsManagement.csproj|c:\\users\\hpi52\\source\\repos\\ticketmanagementproject\\backendapplication\\ticketsmanagement\\ticketsmanagement\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F031C31-F2F9-4B03-BACC-C7D468B8F9FD}|TicketsManagement\\TicketsManagement.csproj|solutionrelative:ticketsmanagement\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F031C31-F2F9-4B03-BACC-C7D468B8F9FD}|TicketsManagement\\TicketsManagement.csproj|c:\\users\\hpi52\\source\\repos\\ticketmanagementproject\\backendapplication\\ticketsmanagement\\ticketsmanagement\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F031C31-F2F9-4B03-BACC-C7D468B8F9FD}|TicketsManagement\\TicketsManagement.csproj|solutionrelative:ticketsmanagement\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2F031C31-F2F9-4B03-BACC-C7D468B8F9FD}|TicketsManagement\\TicketsManagement.csproj|c:\\users\\hpi52\\source\\repos\\ticketmanagementproject\\backendapplication\\ticketsmanagement\\ticketsmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2F031C31-F2F9-4B03-BACC-C7D468B8F9FD}|TicketsManagement\\TicketsManagement.csproj|c:\\users\\hpi52\\source\\repos\\ticketmanagementproject\\backendapplication\\ticketsmanagement\\ticketsmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{2F031C31-F2F9-4B03-BACC-C7D468B8F9FD}|TicketsManagement\\TicketsManagement.csproj|solutionrelative:ticketsmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F031C31-F2F9-4B03-BACC-C7D468B8F9FD}|TicketsManagement\\TicketsManagement.csproj|c:\\users\\hpi52\\source\\repos\\ticketmanagementproject\\backendapplication\\ticketsmanagement\\ticketsmanagement\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F031C31-F2F9-4B03-BACC-C7D468B8F9FD}|TicketsManagement\\TicketsManagement.csproj|solutionrelative:ticketsmanagement\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2F031C31-F2F9-4B03-BACC-C7D468B8F9FD}|TicketsManagement\\TicketsManagement.csproj|c:\\users\\hpi52\\source\\repos\\ticketmanagementproject\\backendapplication\\ticketsmanagement\\ticketsmanagement\\services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,16 +39,8 @@
       "RelativeMoniker": "D:0:0:{2F031C31-F2F9-4B03-BACC-C7D468B8F9FD}|TicketsManagement\\TicketsManagement.csproj|solutionrelative:ticketsmanagement\\services\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F031C31-F2F9-4B03-BACC-C7D468B8F9FD}|TicketsManagement\\TicketsManagement.csproj|c:\\users\\hpi52\\source\\repos\\ticketmanagementproject\\backendapplication\\ticketsmanagement\\ticketsmanagement\\data\\apidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F031C31-F2F9-4B03-BACC-C7D468B8F9FD}|TicketsManagement\\TicketsManagement.csproj|solutionrelative:ticketsmanagement\\data\\apidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement\\Migrations\\20241017184714_InitialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TicketsManagement\\Migrations\\20241017184714_InitialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F031C31-F2F9-4B03-BACC-C7D468B8F9FD}|TicketsManagement\\TicketsManagement.csproj|c:\\users\\hpi52\\source\\repos\\ticketmanagementproject\\backendapplication\\ticketsmanagement\\ticketsmanagement\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F031C31-F2F9-4B03-BACC-C7D468B8F9FD}|TicketsManagement\\TicketsManagement.csproj|solutionrelative:ticketsmanagement\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement\\Migrations\\20241017184444_InitialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,8 +86,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TicketControllerTest.cs",
+              "DocumentMoniker": "C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement.Tests\\TicketControllerTest.cs",
+              "RelativeDocumentMoniker": "TicketsManagement.Tests\\TicketControllerTest.cs",
+              "ToolTip": "C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement.Tests\\TicketControllerTest.cs",
+              "RelativeToolTip": "TicketsManagement.Tests\\TicketControllerTest.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAqwDIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T20:21:15.556Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
@@ -106,68 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement\\Dockerfile",
-              "RelativeDocumentMoniker": "TicketsManagement\\Dockerfile",
-              "ToolTip": "C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement\\Dockerfile",
-              "RelativeToolTip": "TicketsManagement\\Dockerfile",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-18T14:24:03.951Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TicketController.cs",
-              "DocumentMoniker": "C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement\\Controllers\\TicketController.cs",
-              "RelativeDocumentMoniker": "TicketsManagement\\Controllers\\TicketController.cs",
-              "ToolTip": "C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement\\Controllers\\TicketController.cs",
-              "RelativeToolTip": "TicketsManagement\\Controllers\\TicketController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T20:20:15.643Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ITicketService.cs",
-              "DocumentMoniker": "C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement\\Services\\ITicketService.cs",
-              "RelativeDocumentMoniker": "TicketsManagement\\Services\\ITicketService.cs",
-              "ToolTip": "C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement\\Services\\ITicketService.cs",
-              "RelativeToolTip": "TicketsManagement\\Services\\ITicketService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T20:10:10.728Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TicketService.cs",
-              "DocumentMoniker": "C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement\\Services\\TicketService.cs",
-              "RelativeDocumentMoniker": "TicketsManagement\\Services\\TicketService.cs",
-              "ToolTip": "C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement\\Services\\TicketService.cs",
-              "RelativeToolTip": "TicketsManagement\\Services\\TicketService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBMAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T20:10:34.746Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "PaginatedList.cs",
-              "DocumentMoniker": "C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement\\utils\\PaginatedList.cs",
-              "RelativeDocumentMoniker": "TicketsManagement\\utils\\PaginatedList.cs",
-              "ToolTip": "C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement\\utils\\PaginatedList.cs",
-              "RelativeToolTip": "TicketsManagement\\utils\\PaginatedList.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAIwAgAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T20:13:45.633Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement\\appsettings.json",
               "RelativeDocumentMoniker": "TicketsManagement\\appsettings.json",
@@ -175,19 +127,21 @@
               "RelativeToolTip": "TicketsManagement\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-15T20:00:52.999Z"
+              "WhenOpened": "2024-10-15T20:00:52.999Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement\\Program.cs",
               "RelativeDocumentMoniker": "TicketsManagement\\Program.cs",
               "ToolTip": "C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement\\Program.cs",
               "RelativeToolTip": "TicketsManagement\\Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAABkAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAIBJwBkAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T20:43:52.193Z"
+              "WhenOpened": "2024-10-15T20:43:52.193Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -199,43 +153,97 @@
               "RelativeToolTip": "TicketsManagement\\Migrations\\20241017184827_InitialMigration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T18:48:27.523Z"
+              "WhenOpened": "2024-10-17T18:48:27.523Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "ApiDbContext.cs",
               "DocumentMoniker": "C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement\\Data\\ApiDbContext.cs",
               "RelativeDocumentMoniker": "TicketsManagement\\Data\\ApiDbContext.cs",
               "ToolTip": "C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement\\Data\\ApiDbContext.cs",
               "RelativeToolTip": "TicketsManagement\\Data\\ApiDbContext.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAAAG4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAAAHQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T19:48:46.46Z"
+              "WhenOpened": "2024-10-15T19:48:46.46Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "20241017184714_InitialMigration.cs",
-              "DocumentMoniker": "C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement\\Migrations\\20241017184714_InitialMigration.cs",
-              "RelativeDocumentMoniker": "TicketsManagement\\Migrations\\20241017184714_InitialMigration.cs",
-              "ToolTip": "C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement\\Migrations\\20241017184714_InitialMigration.cs",
-              "RelativeToolTip": "TicketsManagement\\Migrations\\20241017184714_InitialMigration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ITicketService.cs",
+              "DocumentMoniker": "C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement\\Services\\ITicketService.cs",
+              "RelativeDocumentMoniker": "TicketsManagement\\Services\\ITicketService.cs",
+              "ToolTip": "C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement\\Services\\ITicketService.cs",
+              "RelativeToolTip": "TicketsManagement\\Services\\ITicketService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T18:47:14.145Z"
+              "WhenOpened": "2024-10-15T20:10:10.728Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "Ticket.cs",
               "DocumentMoniker": "C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement\\Models\\Ticket.cs",
               "RelativeDocumentMoniker": "TicketsManagement\\Models\\Ticket.cs",
               "ToolTip": "C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement\\Models\\Ticket.cs",
               "RelativeToolTip": "TicketsManagement\\Models\\Ticket.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwBQAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T19:50:03.164Z"
+              "WhenOpened": "2024-10-15T19:50:03.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PaginatedList.cs",
+              "DocumentMoniker": "C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement\\utils\\PaginatedList.cs",
+              "RelativeDocumentMoniker": "TicketsManagement\\utils\\PaginatedList.cs",
+              "ToolTip": "C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement\\utils\\PaginatedList.cs",
+              "RelativeToolTip": "TicketsManagement\\utils\\PaginatedList.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T20:13:45.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TicketController.cs",
+              "DocumentMoniker": "C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement\\Controllers\\TicketController.cs",
+              "RelativeDocumentMoniker": "TicketsManagement\\Controllers\\TicketController.cs",
+              "ToolTip": "C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement\\Controllers\\TicketController.cs",
+              "RelativeToolTip": "TicketsManagement\\Controllers\\TicketController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAABQwFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T20:20:15.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TicketService.cs",
+              "DocumentMoniker": "C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement\\Services\\TicketService.cs",
+              "RelativeDocumentMoniker": "TicketsManagement\\Services\\TicketService.cs",
+              "ToolTip": "C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement\\Services\\TicketService.cs",
+              "RelativeToolTip": "TicketsManagement\\Services\\TicketService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T20:10:34.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20241017184714_InitialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement\\Migrations\\20241017184714_InitialMigration.cs",
+              "RelativeDocumentMoniker": "TicketsManagement\\Migrations\\20241017184714_InitialMigration.cs",
+              "ToolTip": "C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement\\Migrations\\20241017184714_InitialMigration.cs",
+              "RelativeToolTip": "TicketsManagement\\Migrations\\20241017184714_InitialMigration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T18:47:14.145Z"
             },
             {
               "$type": "Document",
@@ -245,7 +253,6 @@
               "RelativeDocumentMoniker": "TicketsManagement\\Migrations\\20241017184444_InitialMigration.cs",
               "ToolTip": "C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement\\Migrations\\20241017184444_InitialMigration.cs",
               "RelativeToolTip": "TicketsManagement\\Migrations\\20241017184444_InitialMigration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T18:44:44.455Z"
             },
@@ -259,7 +266,8 @@
               "RelativeToolTip": "TicketsManagement\\TicketsManagement.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-15T19:42:28.193Z"
+              "WhenOpened": "2024-10-15T19:42:28.193Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -269,7 +277,6 @@
               "RelativeDocumentMoniker": "..\\..\\..\\TicketsManagement\\TicketsManagement\\Migrations\\20241015235202_MoreSeeding.cs",
               "ToolTip": "C:\\Users\\hpi52\\source\\repos\\TicketsManagement\\TicketsManagement\\Migrations\\20241015235202_MoreSeeding.cs",
               "RelativeToolTip": "..\\..\\..\\TicketsManagement\\TicketsManagement\\Migrations\\20241015235202_MoreSeeding.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T23:52:02.777Z"
             },
@@ -283,7 +290,8 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\build\\Container.targets",
               "ViewState": "AgIAAM0AAAAAAAAAAAAcwNgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-10-15T23:20:08.268Z"
+              "WhenOpened": "2024-10-15T23:20:08.268Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -295,7 +303,8 @@
               "RelativeToolTip": "TicketsManagement\\Data\\DbSeeder.cs",
               "ViewState": "AgIAAGkAAAAAAAAAAAAgwHMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T20:56:47.666Z"
+              "WhenOpened": "2024-10-15T20:56:47.666Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -305,7 +314,6 @@
               "RelativeDocumentMoniker": "..\\..\\..\\TicketsManagement\\TicketsManagement\\Migrations\\20241015231246_InitialMigration.cs",
               "ToolTip": "C:\\Users\\hpi52\\source\\repos\\TicketsManagement\\TicketsManagement\\Migrations\\20241015231246_InitialMigration.cs",
               "RelativeToolTip": "..\\..\\..\\TicketsManagement\\TicketsManagement\\Migrations\\20241015231246_InitialMigration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T23:12:46.282Z"
             },
@@ -317,7 +325,6 @@
               "RelativeDocumentMoniker": "..\\..\\..\\TicketsManagement\\TicketsManagement\\Migrations\\20241015231026_InitialMigration.cs",
               "ToolTip": "C:\\Users\\hpi52\\source\\repos\\TicketsManagement\\TicketsManagement\\Migrations\\20241015231026_InitialMigration.cs",
               "RelativeToolTip": "..\\..\\..\\TicketsManagement\\TicketsManagement\\Migrations\\20241015231026_InitialMigration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T23:10:26.212Z"
             },
@@ -329,9 +336,10 @@
               "RelativeDocumentMoniker": "TicketsManagement\\Middleware\\ExceptionMiddleware.cs",
               "ToolTip": "C:\\Users\\hpi52\\source\\repos\\TicketManagementProject\\BackendApplication\\TicketsManagement\\TicketsManagement\\Middleware\\ExceptionMiddleware.cs",
               "RelativeToolTip": "TicketsManagement\\Middleware\\ExceptionMiddleware.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowBQAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAA5wBQAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T20:42:06.161Z"
+              "WhenOpened": "2024-10-15T20:42:06.161Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -343,7 +351,8 @@
               "RelativeToolTip": "TicketsManagement\\Exceptions\\TicketNotFoundException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T20:45:37.343Z"
+              "WhenOpened": "2024-10-15T20:45:37.343Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
