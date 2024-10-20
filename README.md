@@ -36,6 +36,8 @@ Follow these steps to run the application using Docker:
     
 2. Use Docker to run the backend (PostgreSQL, .NET API) and the frontend (React) services. In the root directory where `docker-compose.yml` is located, execute the following command:
     `docker compose -f docker-compose.yml up --build -d`
+    the application is automated for deployment. the postgresql database will be initialized with the scripts and configuration provided in initializer folder.
+    - **Note**: for Devlopement I used Entity Framework Code First for database migration. So if you intend to use Devlopement environment you can proceed with this approach. 
 
     This command will build and run the required services:
     
@@ -50,6 +52,7 @@ Follow these steps to run the application using Docker:
 ## Usage
 
 Once the application is running, you can interact with the ticket management system:
+- use the endpoint : `localhost/tickets`
 
 - **Add Ticket**: Click the "Add New" button to create a new ticket.
 - **View Tickets**: Tickets are displayed in a paginated table, with options to update or delete each ticket.

@@ -7,10 +7,14 @@ services:
       - POSTGRES_USER=hahn
       - POSTGRES_PASSWORD=hahn
       - POSTGRES_DB=ticketsdb
+      - POSTGRES_HOST_AUTH_METHOD=md5
     ports:
       - "5432:5432"
     volumes:
-      - pgdata:/var/lib/postgresql/data
+       - pgdata:/var/lib/postgresql/data
+       - ./initializer/init.sql:/docker-entrypoint-initdb.d/init.sql
+       - ./initializer/pg_hba.conf:/etc/postgresql/pg_hba.conf
+       - ./initializer/postgresql.conf:/etc/postgresql/postgresql.conf
     networks:
       - app-network
 
@@ -29,7 +33,7 @@ services:
     networks:
       - app-network
     command: >
-      bash -c "dotnet ef database update --project TicketsManagement && dotnet TicketsManagement.dll"
+      bash -c "dotnet TicketsManagement.dll"
 
   frontend:
     build:
@@ -39,7 +43,7 @@ services:
     environment:
       - REACT_APP_API_URL=http://localhost:5059/
     ports:
-      - "3000:3000"
+      - "80:80"
     networks:
       - app-network
 
