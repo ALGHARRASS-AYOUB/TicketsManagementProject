@@ -46,7 +46,7 @@ Follow these steps to run the application using Docker:
     - **frontend**: React app providing the user interface for the ticket management system.
 3. After the services start, you can access the application:
     
-    - **Frontend**: Navigate to `http://localhost:3000` in your browser to view the ticket management interface.
+    - **Frontend**: Navigate to `http://localhost:80/tickets` in your browser to view the ticket management interface.
     - **Backend API**: The .NET API is exposed at `http://localhost:5059`.
 
 ## Usage
